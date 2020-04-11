@@ -1,0 +1,9 @@
+// Factory simples (Retorna um Objeto)
+function criarPessoas() {
+    return {
+        nome: 'Ana',
+        sobrenome: 'Silva'
+    }
+}
+
+console.log(criarPessoas())
